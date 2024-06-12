@@ -1,5 +1,5 @@
-import Image from 'next/image';
+import { ChatPage } from '@/components/chat-page';
 
 export default function Home() {
-	return <h1>Hello world</h1>;
+	return <ChatPage />;
 }
